@@ -13,14 +13,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg,#0a0a0a,#050808);
+    background: linear-gradient(45deg,#2a2b2c,#184ec2);
 }
 .calculator{
     border:1px solid #9b9292;
     padding:20px;
     border-radius:  16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    box-shadow: 0px 3px 15px rgba(221, 110, 19, 0.5);
 
 
 }
@@ -43,11 +43,12 @@ input{
     padding: 25px;
     margin: 10px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113,115,119,0.5) ;
+    box-shadow: 0px 3px 15px rgba(236, 146, 10, 0.5) ;
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: rgb(203, 240, 240);
+    color: rgb(88, 187, 22);
+    background-color: black;
 
 }
 input::placeholder{
@@ -70,12 +71,11 @@ button{
     background-color: rgb(185, 61, 3);
 }
 .ac{
-    color: red;
+    color: rgb(229, 255, 0);
 }
 .no{
-    color: blueviolet;
+    color: rgb(184, 75, 33);
 }
 .operators{
-    color: rgb(14, 219, 14) ;
+    color: rgb(130, 196, 56) ;
 }
-
